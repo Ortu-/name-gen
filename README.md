@@ -6,7 +6,7 @@ Random Name Generator
 
 The biggest problem that I have with Procedurally Generated content on large scales is that with enough rules to get intelligible results from a generator, repetition is inevitable and glaring. What use is an infinite world if everything is just a reconfiguration of a relatively few and identifable components again and again, the see one youve seen them all effect. On the other hand, without enough rules or with conflicting rules you get untilligible nonsense far too often.
 
-This isn't meant to be negative on PG, rather what im getting at is that it is an important consideration when designing a system to find a way to balance the 'magic vs machine, thinking vs feeling, automation vs art,' how much should actually be given over to the machine, how much should be crafted in fixed form and provided to the sytem, how much should be left to the user? How do you give true depth and soul to automation and make it more than a paper mask imitating something it has no true understanding of?
+This isn't meant to be negative on PG, rather what I'm getting at is that it is an important consideration when designing a system to find a way to balance the 'magic vs machine, thinking vs feeling, automation vs art'. How much should actually be given over to the machine, how much should be crafted in fixed form and provided to the sytem, how much should be left to the user? How do you give true depth and soul to automation and make it more than a paper mask imitating something it has no true understanding of?
 
 Some work is best done by factories, some work is best done by craftsmen.
 
@@ -20,9 +20,11 @@ By manually defining a set of modular components, you have a very high level of 
 
 The interesting thought is that you could build the components (generally 2-4 letters) procedurally with randomized parameters for the ruleset to define common small patterns for a new culture, then plug those generated seed components into this system if you wanted to fully automate the process, but then of course things can quickly get rather complex. You start to run into the issues inherent in random PG: unintelligble or repetitive results. While the identifiable repetition of common names and components are a good thing within a single culture, you do not want this to happen across multiple cultures as they then lose a good deal of their unique identity.
 
-So, this system is built around hand crafted components which are randomly assembled by the system to generate a 'First' or 'Common' name. Last names are left to the user to define. It is always good to engage the user and allow for creative personal input.
+So, this system is built around hand crafted components which are randomly assembled by the system to generate a 'First' or 'Common' name. 'Last' or 'Family' names are left to the user to define. It is always good to engage the user and allow for creative personal input.
 
-The generator itself is quite simple, the bulk of the work is seeding the component data set. For each culture, a set is defined each gender. A name can be assembled using either 2 or 3 parts. A first part and a last part will always be selected, a middle part will be randomly included or not. The generator simply selects a random index for each part in the specified culture/gender set.
+The generator itself is quite simple, the bulk of the work is seeding the component data set. For each culture, a set is defined for each gender. Just as with the overall culture, each gender also has a unique rule and pattern set to differentiate males from females. 
+
+A name can be assembled using either 2 or 3 parts. A first part and a last part will always be selected, a middle part will be randomly included or not. The generator simply selects a random index for each part in the specified culture/gender set.
 
 
 Using the included seed file will give results such as follows:
@@ -55,8 +57,10 @@ Korrelas
 Daloair
 ```
 
-For this culture, masculine names will commonly start with consonants, and masculine vowels U, O, while others can appaer with varying frequency, it is rare for a male to start with Y
-Endings are usually a shorter, sharper, harder sounds ic, oc, ot, in, on, an
+For this culture, masculine names will commonly start with consonants, and masculine vowels U, O, while others can appear with varying frequency, it is rare for a male to start with Y
+
+Endings are usually shorter, sharper, harder sounds like ic, oc, ot, in, on, an
+
 
 Female:
 
@@ -83,7 +87,8 @@ Lyadasa
 Jinedrese
 ```
 
-Feminine will more often start with vowel, commonly A, E, Y, and rarely with a masculine U, O
+Feminine will more often start with vowels, commonly A, E, Y, and rarely with the more masculine U, O
+
 Endings are longer, softer, more breathy, often vowel a, ia, ea, eigh, ese, el
 
 'Xichan' (Eastern themed):
@@ -114,9 +119,12 @@ Xaolan tzo
 Yungsu
 ```
 
-For this culture as a whole, I've introduced the ' character as a short sharp pause marker, as well as allowing a space to break a name into further pieces. 
-The uncommon for western consonents X, Q, Z, W etc have been made far more common on the whole while G, H, J and such are less
-Masculine will rarely begin with a vowel, and Y is treated more as a consonant, with endings not as sharp and hard as the western culture but still following a U, O masculine theme as well as setting an, in to masculine
+For this culture as a whole, I've introduced the ' character as a short sharp pause marker, as well as allowing a space to break a name into further pieces.
+
+The uncommon for western consonents X, Q, Z, W etc have been made far more common on the whole while G, H, J and such are less.
+
+Masculine will rarely begin with a vowel, and Y is treated more as a consonant, with endings not as sharp and hard as the western culture but still following a U, O masculine theme as well as setting an, in to masculine.
+
 
 Female:
 
@@ -144,6 +152,7 @@ Quilensi
 ```
 
 Feminine more often starts with a vowel, and O in the front is considered feminine while o at the end is still masculine and uncommon. 
+
 Endings are still commonly a vowel, though here it is shorter, much less breathy. frequently e, i, as well as setting en, un to feminine opposite the masculine an, in
 
 'Uziiri' (Desert themed):
@@ -175,7 +184,11 @@ Zemmariz
 ```
 
 For this culture, double letters are common, rr, ii, ee, dd, mm, zz etc, and breathiness is prevailant throughout.
-For masculine starters, Z, S are common consonants, while A, U, I appear for the vowels. Masculine names tend to start a bit softer than males of other cultures moving to harder at the end, somewhere in the breathy mid ranges id, on, ek, un, um, iz
+
+For masculine starters, Z, S are common consonants, while A, U, I appear for the vowels. 
+
+Masculine names tend to start a bit softer than males of other cultures moving to harder at the end, somewhere in the breathy mid ranges id, on, ek, un, um, iz
+
 
 Female:
 
@@ -202,9 +215,12 @@ Zelyihn
 Mina
 ```
 
-For feminine starters Z, S are still common as with the males, though S a bit more so here. Y also appears much more frequently. Endings are softer and somewhat breathier than the males, in, ahd, ahn, ah, oh, eh
+For feminine starters Z, S are still common as with the males, though S a bit more so here. Y also appears much more frequently. 
+
+Endings are softer and somewhat breathier than the males, in, ahd, ahn, ah, oh, eh
 
 --------
 
 In a full seed file, I'm generally targetting 100 options per part per gender per race giving slightly over 1 million possibilites for each gender/race.
+
 As far as randomality goes, it is a small data set with a relatively small range of possibilities. Remember however, names are not unique. An important part of defining a cultural pattern is actually the repetition of common names, and so it becomes desireable to have a large enough data set that every third name isn't the same, but that you might expect to find a couple of duplicates in 1,000.
