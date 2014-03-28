@@ -28,7 +28,7 @@ The generator itself is quite simple, the bulk of the work is seeding the compon
 Using the included seed file will give results such as follows:
 
 'Celish' (Typical western fantasy rpg themed):
-========
+--------
 
 Male:
 
@@ -87,7 +87,7 @@ Feminine will more often start with vowel, commonly A, E, Y, and rarely with a m
 Endings are longer, softer, more breathy, often vowel a, ia, ea, eigh, ese, el
 
 'Xichan' (Eastern themed):
-========
+--------
 
 Male:
 
@@ -147,7 +147,7 @@ Feminine more often starts with a vowel, and O in the front is considered femini
 Endings are still commonly a vowel, though here it is shorter, much less breathy. frequently e, i, as well as setting en, un to feminine opposite the masculine an, in
 
 'Uziiri' (Desert themed):
-========
+--------
 
 Male:
 
@@ -204,7 +204,7 @@ Mina
 
 For feminine starters Z, S are still common as with the males, though S a bit more so here. Y also appears much more frequently. Endings are softer and somewhat breathier than the males, in, ahd, ahn, ah, oh, eh
 
-========
+--------
 
 In a full seed file, I'm generally targetting 100 options per part per gender per race giving slightly over 1 million possibilites for each gender/race.
 As far as randomality goes, it is a small data set with a relatively small range of possibilities. Remember however, names are not unique. An important part of defining a cultural pattern is actually the repetition of common names, and so it becomes desireable to have a large enough data set that every third name isn't the same, but that you might expect to find a couple of duplicates in 1,000.
