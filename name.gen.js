@@ -21,7 +21,7 @@ function Name_Generator(){
 			firstPart = thisPart[Math.floor((Math.random() * thisPart.length))];
 
 		//Middle Part
-		if(Math.floor((Math.random()*2)+1) == 2){
+		if(Math.floor((Math.random()*2))){
 			thisPart = nameSeed[race][gender]["ComMiddle"];
 				middlePart = thisPart[Math.floor((Math.random() * thisPart.length))];
 		}
