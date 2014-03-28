@@ -4,7 +4,7 @@ name-gen
 Random Name Generator
 
 
-The biggest problem that I have with Procedurally Generated content on large scales is that with enough rules to get intelligible results from a generator, repetition is inevitable and glaring. What use is an infinite world if everything is just a reconfiguration of a relatively few and identifable components again and again, the see one youve seen them all effect. On the other hand, without enough rules or with conflicting rules you get untilligible nonsense far too often.
+The biggest problem that I have with Procedurally Generated content on large scales is that with enough rules to get intelligible results from a generator, repetition is inevitable and glaring. What use is an infinite world if everything is just a reconfiguration of relatively few, identifable components again and again; the see one, you've seen them all effect. On the other hand, without enough rules or with conflicting rules you get unintelligible nonsense far too often.
 
 This isn't meant to be negative on PG, rather what I'm getting at is that it is an important consideration when designing a system to find a way to balance the 'magic vs machine, thinking vs feeling, automation vs art'. How much should actually be given over to the machine, how much should be crafted in fixed form and provided to the sytem, how much should be left to the user? How do you give true depth and soul to automation and make it more than a paper mask imitating something it has no true understanding of?
 
