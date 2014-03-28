@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="name.seed.js"></script>
+		<script src="name.gen.js"></script>
+		<style type="text/css">.item{ width:150px;	float:left; }</style>
+	</head>
+	
+	<body>
+		<div id="main" style="width:500px;height:600px;">
+		
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		var ng = new Name_Generator();
+		
+		var names = "<span class='item'>Celish Male</span>";
+			names += "<span class='item'>Celish Female</span><br/><br/>";
+			
+		for(var i = 0;i < 20; i++){
+			names += "<span class='item'>" + ng.getName("Celish", "Male") + "</span>";
+			names += "<span class='item'>" + ng.getName("Celish", "Female") + "</span><br/>";
+		}
+		
+		document.getElementById("main").innerHTML = names;
+	</script>
+</html>
